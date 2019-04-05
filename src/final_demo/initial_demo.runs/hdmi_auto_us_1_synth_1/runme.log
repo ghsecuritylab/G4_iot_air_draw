@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log hdmi_auto_us_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_auto_us_1.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source hdmi_auto_us_1.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP hdmi_auto_us_1, cache-ID = ed3ca9e7c0620537.
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 13 01:29:15 2019...

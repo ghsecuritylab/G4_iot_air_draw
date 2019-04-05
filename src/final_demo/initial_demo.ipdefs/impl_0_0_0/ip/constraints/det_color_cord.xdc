@@ -1,0 +1,5 @@
+set_false_path -through [get_ports target_threshold[*]]
+set_false_path -through [get_ports other_threshold[*]]
+set_false_path -through [get_ports target_color[*]]
+set_false_path -through [get_ports width[*]]
+set_false_path -through [get_ports height[*]]

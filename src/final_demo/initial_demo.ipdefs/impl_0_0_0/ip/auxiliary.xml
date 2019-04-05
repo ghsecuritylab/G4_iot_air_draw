@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="det_color_cord" xd:componentRef="det_color_cord" xd:initiationInterval="3" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="frame_in.data" xd:originalName="frame_in" xd:direction="in" xd:interfaceRef="frame_in_V" xd:busTypeRef="axis" xd:dataPack="true" xd:bitMapping="23:0" xd:dataWidth="24"/>
+  <xd:arg xd:name="frame_in.tlast" xd:originalName="frame_in" xd:direction="in" xd:interfaceRef="frame_in_V" xd:busTypeRef="axis" xd:dataPack="true" xd:bitMapping="24:24" xd:dataWidth="1"/>
+  <xd:arg xd:name="frame_in.tkeep" xd:originalName="frame_in" xd:direction="in" xd:interfaceRef="frame_in_V" xd:busTypeRef="axis" xd:dataPack="true" xd:bitMapping="27:25" xd:dataWidth="3"/>
+  <xd:arg xd:name="cord_out.data" xd:originalName="cord_out" xd:direction="out" xd:interfaceRef="cord_out_V" xd:busTypeRef="axis" xd:dataPack="true" xd:bitMapping="95:0" xd:dataWidth="96"/>
+  <xd:arg xd:name="cord_out.tlast" xd:originalName="cord_out" xd:direction="out" xd:interfaceRef="cord_out_V" xd:busTypeRef="axis" xd:dataPack="true" xd:bitMapping="96:96" xd:dataWidth="1"/>
+  <xd:arg xd:name="target_threshold" xd:originalName="target_threshold" xd:direction="in" xd:interfaceRef="target_threshold" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="other_threshold" xd:originalName="other_threshold" xd:direction="in" xd:interfaceRef="other_threshold" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="target_color" xd:originalName="target_color" xd:direction="in" xd:interfaceRef="target_color" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="width" xd:originalName="width" xd:direction="in" xd:interfaceRef="width" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="height" xd:originalName="height" xd:direction="in" xd:interfaceRef="height" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="reset" xd:originalName="reset" xd:direction="in" xd:interfaceRef="reset" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="1"/>
+  <xd:arg xd:name="*(y_cord_out)" xd:originalName="y_cord_out" xd:direction="out" xd:interfaceRef="y_cord_out" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(x_cord_out)" xd:originalName="x_cord_out" xd:direction="out" xd:interfaceRef="x_cord_out" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(pixel_in_data_out)" xd:originalName="pixel_in_data_out" xd:direction="out" xd:interfaceRef="pixel_in_data_out" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(edgeout_val)" xd:originalName="edgeout_val" xd:direction="out" xd:interfaceRef="edgeout_val" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="64"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="2" xd:average-case="2"/>
+  <xd:resourceEstimates xd:LUT="1835" xd:FF="980" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>
