@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 10 19:38:48 2019
+# Process ID: 5159
+# Current directory: /media/mariko/external_storage_personal/ece532/project/custom_color_detect_video/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /media/mariko/external_storage_personal/ece532/project/custom_color_detect_video/solution1/impl/ip/vivado.log
+# Journal file: /media/mariko/external_storage_personal/ece532/project/custom_color_detect_video/solution1/impl/ip/vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/mariko/external_storage_personal/ece496/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 10 19:39:36 2019...
