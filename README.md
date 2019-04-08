@@ -39,4 +39,4 @@ Mariko Tatsumi
 Haiqi Xu  
 
 ## Acknowledgments:
-We would like to express our special thanks of gratitude to the author of project [Hand Gesture Computer Interface](https://github.com/mankaijon/G1_DragandStampSystem) which provides us a handy VDMA wrapper to use in our SDK code.
+We would like to express our special thanks of gratitude to the author of project [Hand Gesture Computer Interface](https://github.com/arasht94/G5_HandGestureComputerInterface/blob/master/src/hdmi.sdk/videodemo/src/vdma) which provides us a handy VDMA wrapper to use in our SDK code.
